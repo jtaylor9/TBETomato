@@ -1,0 +1,283 @@
+body {
+  padding-top: 0px;  /* Move body of page below navbar. */
+  background: url('/images/fabric_gray.png');
+}
+
+button{
+  border-radius:4px;
+  background-color: tomato;
+  padding: 6px 12px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -webkit-appearance: button;
+  cursor: pointer;
+  width: 105px;
+  height: 40px;
+  border-color: tomato;
+}
+
+div.well.well-lg{
+  display:block;
+  border-radius:40%;
+  border-color: black;
+  font-size: 40px;
+  color: tomato;
+  background: url('/images/black.jpg');
+  width: 77px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.well-lg{
+  padding: 15px;
+}
+
+#owl-home .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.navbar{
+  border-radius: 0px;
+  padding: 5px;
+  background: url('/images/black.jpg');
+  border: none;
+  color: tomato;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+a.navbar-brand{
+  background: url('/images/Tomato.svg');
+  background-size: 60px 45px;
+  height: 45px;
+  width: 60px;
+}
+footer{
+  background: url('/images/black.jpg');
+  color: tomato;
+  padding: 20px;
+}
+
+p.text-center.text-muted{
+  color: tomato;
+}
+
+.navbar-inverse{
+}
+
+ul{
+  list-style-type: none;
+}
+
+.navbar-inverse .navbar-brand {
+  color: tomato;
+}
+
+.navbar > .container .navbar-brand{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+  color: tomato;
+  font-size: 24px;
+}
+
+th {
+  text-align: center;
+}
+.table > tbody > tr > td{
+  vertical-align: middle;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: transparent;
+  color: white;
+}
+
+.offersHeader{
+  text-align: left;
+}
+.alignleft {
+  float: left;
+  text-align: left;
+
+}
+
+.aligncenter {
+  float: left;
+  text-align: center;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+[class*='col-'] {
+  padding-right: 27px;
+  float: left;
+
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.carouselcontainer {
+  width: 100%;
+}
+
+@media (min-width: 1200px){
+  .container {
+
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.navbar .dropdown-menu {
+  margin-top: 0px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+  background-color:transparent;
+}
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+.well{
+  text-align: center;
+}
+
+.btn-primary{
+  color: black;
+  background-color: tomato;
+  border-color: tomato;
+}
+
+.btn{
+  margin-bottom: 10px;
+}
+
+.studentc {
+  border: none;
+  box-shadow: none;
+}
+
+.studentleft {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.studentmiddle{
+  border-top: solid 8px tomato;
+  border-bottom: solid 8px tomato;
+  border: solid 8px tomato;
+  margin: 180px;
+  position: static;
+}
+
+.row{
+  text-align: center;
+}
+
+.studentright {
+  border-top: solid 8px tomato;
+  border-bottom: solid 8px tomato;
+  border: solid 8px tomato;
+  margin: 30px 0 0 0;
+  position: static;
+}
+
+div.row.box1{
+  background-image: url('/images/fabric_gray.png');
+}
+
+.well.studentc{
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+}
+
+.row.box1 {
+  margin-bottom: 100px;
+}
+
+.col-md-6.studentright{
+  margin-top: 10px;
+}
+
+.col-md-6.studentleft{
+  padding-top: 80px;
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+}
+
+h4 {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h5{
+  text-align: center;
+  font-size: 50px;
+}
+
+div.img-div {
+  /* make it responsive */
+  max-width: 100%;
+  width: 30%;
+  height: 100%;
+  display:block;
+  /* div height to be the same as width*/
+  padding-top: 30%;
+
+  /* make it a cirkle */
+  border-radius: 50%;
+
+  /* Centering on image`s center*/
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+  /* it makes the clue thing, takes smaller dimention to fill div */
+  background-size: cover;
+
+  /* it is optional, for making this div centered in parent*/
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#HomePage{
+  background-color: tomato;
+  color: black;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
